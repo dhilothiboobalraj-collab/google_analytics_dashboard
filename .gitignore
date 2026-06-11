@@ -1,0 +1,33 @@
+# Virtual environments
+venv/
+.venv/
+
+# Environment variables (contains secrets)
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Database files
+*.db
+
+# Credential / secret files
+client_secret.json
+client_secret_*.json
+service_account.json
+credentials/
+token.json
+
+# Output data (generated at runtime)
+output/
+
+# IDE / OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+Thumbs.db
+.DS_Store
